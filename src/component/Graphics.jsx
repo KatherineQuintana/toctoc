@@ -26,13 +26,11 @@ chartJS.register(
 );
 
 
-
 const events = [5, 2, 4, 2, 3];
-const labels = [1, 2, 3, 4, 5];
+const labels = [9, 9.10, 9.20, 9.30];
 
 const options ={
     fill: true,
-    responsive: true,
     scales :{
         y: {
             min: 0,
@@ -45,7 +43,7 @@ const Graphics = () => {
         return{
             datasets: [
                 {
-                    label: "Eventos",
+                    label: "hoy 09:00 - 09:30",
                     data: events,
                     tension: 0.5,
                     borderColor: 'rgb(0, 0, 255)',

@@ -2,6 +2,26 @@
   text-align: center;
 }
 
+.allGrafic {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .spacing {
-  margin: 70px;
+  margin-top: 90px;
+  width: 600px;
+}
+
+.spacingTwo {
+  margin-top: 90px;
+  width: 600px;
+}
+
+.spacingData {
+  margin: 90px;
+}
+
+.buttonGrafic {
+  display: flex;
+  justify-content: center;
 }

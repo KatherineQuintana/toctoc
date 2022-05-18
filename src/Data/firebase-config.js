@@ -20,9 +20,9 @@ const app = initializeApp(firebaseConfig);
 export const db = getFirestore();
 export default app;
 
-export const saveData = (ingress) => {
+export const saveData = (name) => {
   addDoc(collection(db, "eventData"), {
-    ingress,
+    name,
     datepost: Timestamp.fromDate(new Date()),
     });
 }
